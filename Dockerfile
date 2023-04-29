@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-ARG APP_NAME
+ARG APP_NAME=crm
 
 # test arg
 RUN test -n "$APP_NAME"
